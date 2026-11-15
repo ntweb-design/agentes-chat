@@ -172,3 +172,4 @@ jobs:
       - name: Remove the key and Firebase's file
         if: always()
         run: rm -f "$RUNNER_TEMP/upload.keystore" "$RUNNER_TEMP/google-services.json"
+# fork: trigger workflow registration
